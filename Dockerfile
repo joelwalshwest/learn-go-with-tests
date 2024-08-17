@@ -1,5 +1,7 @@
 FROM joelwalshwest/my-development-environment
 
+WORKDIR /code
+
 COPY . .
 
 # Copy local nvim configurations
